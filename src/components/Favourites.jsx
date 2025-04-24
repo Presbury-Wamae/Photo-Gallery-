@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 function Favourites({favorites, onRemove}) {
     return(
         <section>
-            <div className="Navbar"><NavBar/></div>
+            <div className="navbar"><NavBar/></div>
             <div className="favourites-header">
                 <h2>Favourites ({ favorites.length })</h2>
             </div>

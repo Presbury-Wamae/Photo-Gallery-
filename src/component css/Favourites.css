@@ -1,7 +1,7 @@
 .favourites-header {
   padding: 2rem 0;
   margin-bottom: 2rem;
-  text-align: center; /* Center align header content */
+  text-align: center;
 }
 
 .favourites-header h2 {
@@ -9,11 +9,11 @@
   color: #333;
   position: relative;
   display: inline-block;
-  padding-bottom: 1rem; /* Space for underline */
-  margin: 0 auto; /* Center the heading */
+  padding-bottom: 1rem; 
+  margin: 0 auto; 
 }
 
-/* Add horizontal line under heading */
+
 .favourites-header h2::after {
   content: '';
   position: absolute;
