@@ -676,6 +676,17 @@
       ]
     },
     {
+      "id": 6,
+      "url": "https://images.unsplash.com/photo-1511497584788-876760111969",
+      "width": 4000,
+      "height": 6000,
+      "title": "Urban Exploration",
+      "description": "Abandoned building adventure",
+      "likes": 1345,
+      "category": "Urban",
+      "tags": ["abandoned", "exploration", "decay"]
+    },
+    {
       "id": "7",
       "url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df",
       "width": 5000,
@@ -749,6 +760,17 @@
         "healthy",
         "fresh"
       ]
+    },
+    {
+      "id": 12,
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+      "width": 6000,
+      "height": 4000,
+      "title": "Mountain Climber",
+      "description": "Adventurer scaling peaks",
+      "likes": 876,
+      "category": "Adventure",
+      "tags": ["climbing", "mountains", "sports"]
     },
     {
       "id": "13",
@@ -999,11 +1021,7 @@
       "description": "Music festival energy",
       "likes": 2345,
       "category": "Events",
-      "tags": [
-        "concert",
-        "festival",
-        "music"
-      ]
+      "tags": ["concert", "festival", "music"]
     }
   ]
 }

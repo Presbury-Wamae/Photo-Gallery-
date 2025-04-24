@@ -3,9 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import './App.css';
 import GalleryApp from './GalleryApp';
-import About from './components/About';
-import Contact from './components/Contact';
-import Favourites from './components/favourites';
 
 function App() {
   const [title] = useState("PhoGalleria");
@@ -49,5 +46,7 @@ function App() {
         </Routes>
     </Router>
   );
+
 }
-export default App
+
+

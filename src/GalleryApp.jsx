@@ -30,7 +30,6 @@ const GalleryApp = ({favorites, onLike}) => {
     });
   }; 
 
-  
   useEffect(() => {
     fetchImages();
   }, [page]);
