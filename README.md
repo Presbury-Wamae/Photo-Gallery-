@@ -35,13 +35,13 @@ A modern web application for browsing and discovering high-quality images powere
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/Presbury_Wamue/photo-gallery.git
+git clone https://github.com/Presbury_Wamae/photo-gallery.git
 cd photo-gallery-
 
 ``` 
 
 ## Creators 
 
-All rights reserved to Presbury Wamue, Rochelle Awuor and Neville Ng'ang'a
+All rights reserved to Presbury Wamae, Rochelle Awuor and Neville Ng'ang'a
 
 
