@@ -6,7 +6,9 @@ function About(){
     return(
         <section
             className="about-section">
-                <div className="navbar"><NavBar/></div>
+                <div className="navbar-about">
+                    <NavBar/>
+                    </div>
                     <div className="about-title">
                     <h2>About Us</h2>
                     </div>
