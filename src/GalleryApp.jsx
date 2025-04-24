@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import ImageList from './components/ImageList';
+import Searchbar from './components/Searchbar';
 import axios from 'axios';
 
 const GalleryApp = ({favorites, onLike}) => {
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   const fetchImages = () => {
     setIsLoading(true);
@@ -51,10 +54,29 @@ const GalleryApp = ({favorites, onLike}) => {
     setPage(prev => prev + 1);
   };
 
+  const filteredImages = images.filter(image => {
+    const matchesSearch =
+      image.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      image.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      image.tags?.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+
+    const matchesCategory =
+      selectedCategory === "all" ||
+      image.category?.toLowerCase() === selectedCategory.toLowerCase();
+
+    return matchesSearch && matchesCategory;
+  });
+
+
   return (
     <div className="gallery-container">
+      <Searchbar
+        onSearch={setSearchTerm}
+        onCategoryChange={setSelectedCategory}
+      />
+
       <h1 className="gallery-title">My Photo Gallery</h1>
-      <ImageList images={images}  onLike={onLike} favorites={favorites} />
+      <ImageList images={filteredImages}  onLike={onLike} favorites={favorites} />
       {isLoading && <p>Loading more images...</p>}
       {!isLoading && (
         <button className="load-more-btn" onClick={handleLoadMoreClick}>

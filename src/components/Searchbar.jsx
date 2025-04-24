@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Searchbar({onSearch, onCategoryChange, onUpload}) {
+function Searchbar({onSearch, onCategoryChange,}) {
     const [searchTerm, setSearchTerm] =useState(" ");
 
     const [selectedCategory, setSelectedCategory] = useState("all");
@@ -18,12 +18,6 @@ function Searchbar({onSearch, onCategoryChange, onUpload}) {
         setSelectedCategory(category);
         if (onCategoryChange) {
             onCategoryChange(category); 
-        }
-    };
-
-    const handleUploadClick = () => {
-        if (onUpload) {
-            onUpload(); 
         }
     };
 
@@ -45,14 +39,8 @@ function Searchbar({onSearch, onCategoryChange, onUpload}) {
     <option value="fashion">Fashion</option>
     <option value="food">Food Photography</option>
     <option value="events">Events</option>
-</select>
-
-<button className="upload-btn"  onClick={handleUploadClick} >
-          Upload Image
-        </button>
-
-
-        </div>
+        </select>
+    </div>
     )
 }
 

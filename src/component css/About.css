@@ -51,7 +51,7 @@
   
   
   .about-card h3 {
-    color: #88c603;
+    color: #d4a537;
     margin-top: 0;
     font-size: 1.8rem;
   }
@@ -84,6 +84,14 @@
 .footer-section {
     flex: 1;
     min-width: 250px;
+} 
+
+.navbar{
+  background-color:black;
+} 
+
+.footer-content{
+  text-align: center;
 }
 
 
