@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Searchbar from './components/Searchbar';
 import './App.css';
 import GalleryApp from './GalleryApp';
+import About from './components/about';
+import Contact from './components/Contact';
+import Favourites from './components/Favourites';
 
 function App() {
   const [title] = useState("PhoGalleria");
@@ -51,4 +54,4 @@ function App() {
 
 }
 
-
+export default App

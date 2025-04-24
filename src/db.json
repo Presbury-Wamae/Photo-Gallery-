@@ -7,7 +7,7 @@
       "height": 2160,
       "title": "Mountain Sunrise",
       "description": "4K golden hour over alpine peaks",
-      "likes": 251,
+      "likes": 1246,
       "category": "Landscape",
       "tags": [
         "mountains",
@@ -22,7 +22,7 @@
       "height": 2000,
       "title": "Gourmet Plating",
       "description": "Artistic food composition",
-      "likes": 189,
+      "likes": 893,
       "category": "Food Photography",
       "tags": [
         "gourmet",
@@ -37,7 +37,7 @@
       "height": 3600,
       "title": "Runway Model",
       "description": "High-fashion portrait",
-      "likes": 312,
+      "likes": 1568,
       "category": "Fashion",
       "tags": [
         "model",
@@ -684,7 +684,11 @@
       "description": "Abandoned building adventure",
       "likes": 1345,
       "category": "Urban",
-      "tags": ["abandoned", "exploration", "decay"]
+      "tags": [
+        "abandoned",
+        "exploration",
+        "decay"
+      ]
     },
     {
       "id": "7",
@@ -770,7 +774,11 @@
       "description": "Adventurer scaling peaks",
       "likes": 876,
       "category": "Adventure",
-      "tags": ["climbing", "mountains", "sports"]
+      "tags": [
+        "climbing",
+        "mountains",
+        "sports"
+      ]
     },
     {
       "id": "13",
@@ -1021,7 +1029,11 @@
       "description": "Music festival energy",
       "likes": 2345,
       "category": "Events",
-      "tags": ["concert", "festival", "music"]
+      "tags": [
+        "concert",
+        "festival",
+        "music"
+      ]
     }
   ]
 }
