@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Searchbar from './components/Searchbar';
 import './App.css';
 import GalleryApp from './GalleryApp';
 
@@ -34,8 +33,7 @@ function App() {
         <Route path="/" element={
           <div className="home-page">
             <Header headtext={title} />
-            <Searchbar />
-            <GalleryApp favorites={favorites} onLike={handleLike}/>
+            <GalleryApp favorites={favorites} onLike={handleLike} />
           </div>
         }/> 
 
