@@ -12,7 +12,7 @@ const GalleryApp = ({favorites, onLike}) => {
 
   const fetchImages = () => {
     setIsLoading(true);
-    axios.get(`http://localhost:3000/images`, {
+    axios.get(`https://photo-gallery-2mcj.onrender.com`, {
       params: {
         _page: page,
         _limit: 6,
