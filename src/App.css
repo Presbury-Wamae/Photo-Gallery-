@@ -9,7 +9,7 @@ body{
   display:flex;
   justify-content: center;
   padding:10px;
-  background-image: url("/images/hero.jpg");
+  background-image: url("/public/hero.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
