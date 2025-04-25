@@ -9,14 +9,14 @@ body{
   display:flex;
   justify-content: center;
   padding:10px;
-  background-image: url("/public/hero.jpg");
+  background-image: url("/hero.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
   flex-wrap: wrap;
   height:100vh;
-  width:100wh;
+  width:100vw;
   position: relative;
 
 }
